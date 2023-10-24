@@ -1,0 +1,11 @@
+<%= @keys %>
+
+<ul>
+  <% @symbols.each do |a_exchange| %>
+    <li>
+      <a href = "/<%= a_exchange %>">
+        Convert 1 <%= a_exchange %> to...
+      </a> 
+    </li>
+  <% end %>
+</ul>
